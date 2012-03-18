@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/bootstrap.amelia.min.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+	<script src="/javascripts/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/javascripts/chords.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>	
+		
+<script>
+    function print_msg (msg, style, time){
+        $('#msg').html('<div class="msg msg-'+ style +'">' + msg + '</div>');
+        $('#msg').fadeIn();
+        setTimeout(function(){$('#msg').fadeOut()},time || 500);
+    }
+
+    var audio_tones = {}
+
+    function play (tone){
+      audio_tones[tone].play();
+    }
+
+    $(document).ready(function() {
+
+   	  //load tones
+	   	for(var key in Base64EncodedNotes){
+        var audio = new Audio();
+        audio.src = Base64EncodedNotes[key];
+        //audio.load();
+	      audio_tones[key]= audio;
+	   	}
+
+      //socket.io -------------------------
+      var server='http://' + real_time_server.host + ':' + real_time_server.port;      
+      var socket = io.connect(server);
+
+      socket.on('connect',function() {
+        $('#socketio').html('<span class="label label-success">connected!</label>'); 
+        socket.emit('join', { id: user_id });
+      });
+
+      socket.on('disconnect',function() {
+        $('#socketio').html('<span class="label label-important">disconnected</label>'); 
+      });
+
+      socket.on('tone',function(tone) {        
+        print_msg(tone);        
+        play(tone);
+      });
+
+      //jQuery bindings
+      $('input.tone').click(function(e){
+        var tone = $(this).val();        
+        socket.emit('tone', { tone: tone });
+      });
+    });      
+
+  $(document).keydown(function (e) {    
+    switch (e.keyCode){
+      case 65: //a
+        play('C');
+        break;
+      
+      case 83: //s 
+        play('D');
+        break;
+  
+      case 68: //d 
+        play('E');
+        break;
+
+      case 70: //f
+        play('F');
+        break;
+
+      case 71: //g
+        play('G');
+        break;
+      }  
+  });        
+
+
+</script>
+
+
+	<div class="navbar">
+	  <div class="navbar-inner">
+	    <div class="container-fluid">
+			<ul class="nav">
+			  <li class="active">
+			    <a href="#">Socket-piano<span id="socketio"></span></a> 
+			  </li>
+			</ul>
+	    </div>
+	  </div>
+	</div>
+
+    <div class="container-fluid">	
+	
+	<%- body %>
+
+	<footer>
+		Source code available in GitHub: <a href="https://github.com/iloire/socket-piano">https://github.com/iloire/socket-piano</a>
+	</footer>
+
+	<script>
+	var user_id = Math.random();
+	var real_time_server = {host: '<%=real_time_server.host %>', port:<%=real_time_server.port %>};
+	</script>
+	<script src="http://<%=real_time_server.host %>:<%=real_time_server.port %>/socket.io/socket.io.js" type="text/javascript" charset="utf-8"></script>		
+  
+	</div>
+
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-300651-38']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+  </body>
+</html>

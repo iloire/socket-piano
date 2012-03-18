@@ -1,0 +1,509 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"requi",
+				"module._load(request, parent, isMain);"
+			],
+			[
+				"node",
+				"punycode.toASCII(domain);"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config.js",
+			"settings":
+			{
+				"buffer_size": 127,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 481,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 284,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Nodejs/Nodejs.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: setTimeout function"
+			],
+			[
+				"pa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Snippet: for",
+				"Snippet: for (…) {…}"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ivanloire/dev/node/4c/lib/real-time/listeners/meetingfunctions/chat.js",
+		"/Users/ivanloire/dev/node/4c/lib/modules/meetings/meeting_chat.js",
+		"/Users/ivanloire/dev/node/4c/tests/modules/users/tests.js",
+		"/Users/ivanloire/dev/node/4c/views/partial/footer_scripts.html",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/meetingphases_breadcrumb.html",
+		"/Users/ivanloire/dev/node/4c/public/javascripts/utils.js",
+		"/Users/ivanloire/dev/node/4c/public/stylesheets/style.css",
+		"/Users/ivanloire/dev/node/4c/public/javascripts/test.js",
+		"/Users/ivanloire/dev/node/4c/public/javascripts/real_time.js",
+		"/Users/ivanloire/dev/node/4c/views/teams/partial/teams_list_short.html",
+		"/Users/ivanloire/dev/node/4c/app.js",
+		"/Users/ivanloire/dev/node/4c/config.js",
+		"/Users/ivanloire/dev/node/4c/lib/modules/meetings/real-time.js",
+		"/Users/ivanloire/dev/node/4c/server.js",
+		"/Users/ivanloire/dev/node/4c/tests/modules/meeting_state/tests.js",
+		"/Users/ivanloire/dev/node/4c/lib/modules/meetings/real-time/common.js",
+		"/Users/ivanloire/dev/node/4c/lib/modules/meetings/real-time/utils.js",
+		"/Users/ivanloire/dev/node/4c/lib/modules/meetings/real-time/meeting_state.js",
+		"/Users/ivanloire/dev/node/4c/lib/modules/meetings/real-time/server.js",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/meetings_list_short.html",
+		"/Users/ivanloire/dev/node/4c/lib/modules/meetings/real-time/meetingphases/checkin.js",
+		"/Users/ivanloire/dev/node/4c/views/meetings/meeting.html",
+		"/Users/ivanloire/dev/node/4c/public/javascripts/meetingphases/input.js",
+		"/Users/ivanloire/dev/node/4c/public/javascripts/meetingphases/meeting_manager.js",
+		"/Users/ivanloire/dev/node/4c/public/javascripts/meetingphases/checkin.js",
+		"/Users/ivanloire/dev/node/4c/public/javascripts/bootstrap-collapse.js",
+		"/Users/ivanloire/dev/node/4c/scripts/lib/rebuild_database.js",
+		"/Users/ivanloire/dev/node/4c/public/stylesheets/bootstrap.min.css",
+		"/Users/ivanloire/dev/node/4c/views/layout.html",
+		"/Users/ivanloire/dev/node/4c/lib/modules/meetings/meetingphases.js",
+		"/Users/ivanloire/dev/node/4c/lib/modules/users.js",
+		"/Users/ivanloire/dev/node/4c/tests/http/meetings/tests.js",
+		"/Users/ivanloire/dev/node/4c/lib/modules/meetings/meetings.js",
+		"/Users/ivanloire/dev/node/4c/tests/modules/meetings/tests.js",
+		"/Users/ivanloire/dev/node/4c/lib/modules/teams.js",
+		"/Users/ivanloire/dev/node/4c/README.md",
+		"/Users/ivanloire/dev/node/4c/views/login.html",
+		"/Users/ivanloire/dev/node/4c/views/meetings/design.ejs",
+		"/Users/ivanloire/dev/node/4c/routes/meetings/rest.js",
+		"/Users/ivanloire/dev/node/4c/lib/modules/meetings.js",
+		"/Users/ivanloire/dev/node/4c/lib/modules/mpt.js",
+		"/Users/ivanloire/dev/node/4c/views/index.ejs",
+		"/Users/ivanloire/dev/node/4c/views/meetings/design2.ejs",
+		"/Users/ivanloire/dev/node/4c/views/users/partial/users_list_short.ejs",
+		"/Users/ivanloire/dev/node/4c/views/teams/partial/teams_list_short.ejs",
+		"/Users/ivanloire/dev/node/4c/views/meetings/new/new.ejs",
+		"/Users/ivanloire/dev/node/4c/views/admin/mpt/index.ejs",
+		"/Users/ivanloire/dev/node/4c/views/admin/mpt/mpt.ejs",
+		"/Users/ivanloire/dev/node/4c/views/teams/team.ejs",
+		"/Users/ivanloire/dev/node/4c/views/dashboard/dashboard.ejs",
+		"/Users/ivanloire/dev/node/4c/tests/http/admin/tests.js",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/insert_phase_editor.ejs",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/phase_editors/checkin.html",
+		"/Users/ivanloire/dev/node/4c/public/javascripts/meeting.js",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/phase_renders/checking.html",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/phase_renders/input.html",
+		"/Users/ivanloire/dev/node/4c/routes/meetings/meetings.js",
+		"/Users/ivanloire/dev/node/4c/views/partial/salutation.html",
+		"/Users/ivanloire/dev/node/4c/views/login.ejs",
+		"/Users/ivanloire/dev/node/4c/views/partial/flash_message.ejs",
+		"/Users/ivanloire/dev/node/4c/views/admin/meetingphases/meetingphase.ejs",
+		"/Users/ivanloire/dev/node/4c/dynamic_view_helpers.js",
+		"/Users/ivanloire/dev/node/4c/package.json",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/Nodejs/Snippets/node-fs-readdir.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/Nodejs/Snippets/RedisModule.sublime-snippet",
+		"/Users/ivanloire/dev/node/4c/routes/admin/mpt.js",
+		"/Users/ivanloire/dev/node/4c/views/partial/footer_scripts.ejs",
+		"/Users/ivanloire/dev/node/4c/views/admin/mpt/partial/mpt_list_short.ejs",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Settings/Session.sublime_session",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/HTML/html.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/HTML/Miscellaneous.tmPreferences",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/phase_editors/mpt1.html",
+		"/Users/ivanloire/dev/node/4c/views/meetings/new/design2.ejs",
+		"/Users/ivanloire/dev/node/4c/views/meetings/new/design.ejs",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/RedisModule.sublime-snippet",
+		"/Users/ivanloire/dev/node/4c/views/meetings/meeting.ejs",
+		"/Users/ivanloire/dev/node/4c/routes/meetings.js",
+		"/Users/ivanloire/dev/node/4c/tests/modules/teams/tests.js",
+		"/Users/ivanloire/dev/node/4c/routes/users.js",
+		"/Users/ivanloire/dev/node/4c/routes/teams.js",
+		"/Users/ivanloire/dev/node/4c/routes/dashboard.js",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/meetingphases_breadcrumb.ejs",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/phase_editors/mpt2.html",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/CheckParams.sublime-snippet",
+		"/Users/ivanloire/dev/node/4c/lib/modules/common.js",
+		"/Users/ivanloire/dev/node/4c/lib/common.js",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/HtmlP.sublime-snippet",
+		"/Users/ivanloire/dev/node/4c/views/admin/index.ejs",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/HtmlSmall.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/BoostrapWarning.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/jQueryAjaxRequest.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/jQueryReady.sublime-snippet",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/phase_editors/mpt1.ejs",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/phase_editors/1.ejs",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/HtmlInputText.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/ALink.sublimetext-snipet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/H",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/ALink.sublimetext-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/ALink.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/JavaScript/for-()-{}.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/H2.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/JSON.stringify.sublime-snippet",
+		"/Users/ivanloire/dev/node/4c/views/meetings/partial/meetings_list_short.ejs",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/BootstrapAlertSuccess.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/BootStrapRow.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/BoostrapBreadCrumb.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/JavaScript/for-()-{}-(faster).sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/Nodejs/HtmlHiddenField.sublime-snippet",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/Nodejs/Snippets/hello-request.sublime-snippet",
+		"/Users/ivanloire/dev/node/4c/.monitor",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/Nodejs/Nodejs.sublime-settings",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/RedisModule",
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/hellow",
+		"/Users/ivanloire/dev/node/4c/node_modules/request/main.js",
+		"/Users/ivanloire/dev/node/4c/views/teams/teams.ejs",
+		"/Users/ivanloire/dev/node/4c/views/meetings/new.ejs",
+		"/Users/ivanloire/dev/node/4c/tests/http/utils.js",
+		"/Users/ivanloire/dev/node/4c/tests/zombie/tests.js",
+		"/Users/ivanloire/dev/node/4c/tests/runall.js",
+		"/Users/ivanloire/dev/node/4c/views/admin/meeting_phases/index.ejs",
+		"/Users/ivanloire/dev/node/4c/views/layout.ejs",
+		"/Users/ivanloire/dev/node/4c/tests/http/teams/tests.js",
+		"/Users/ivanloire/dev/node/4c/tests/http/tests.js",
+		"/Users/ivanloire/dev/node/4c/views/admin/meetingphases/index.ejs",
+		"/Users/ivanloire/dev/node/4c/views/meetings/meetings.ejs"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/ivanloire/dev/node/4c/",
+			"/Users/ivanloire/dev/node/4c/lib/modules/meetings",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	}",
+			"meeting_chat.js",
+			"socket_ser",
+			"phase_controls_container",
+			"createSt",
+			"settion",
+			"container_ad",
+			"containerAd",
+			"controls_container",
+			"_phase_con",
+			"meeting_",
+			"meeting",
+			"meeting_id",
+			"user_id",
+			"EnableAdminControls",
+			"render",
+			"refres",
+			"refrsh",
+			"refres",
+			"_user_on_stage",
+			"FocusUser",
+			"Focus",
+			"FocusU",
+			"focusu",
+			"FocusUser",
+			"SetCurrentPhase",
+			"currentp",
+			"RequestPhaseChange",
+			"joined",
+			"meeting will",
+			"set_meeting_current_phase",
+			"sessionStore",
+			"_controls_container",
+			"sessionStore",
+			"_controls_container",
+			"_general_admin_container",
+			"enable",
+			"enablead",
+			"refresh",
+			"render",
+			"meeting_progress_bar",
+			"flashMsg",
+			"flashMs",
+			"arr_phase_factory",
+			"Refresh",
+			"RefreshRefreshRefreshRefreshRefresh",
+			"REnder",
+			"clicked",
+			"avatar",
+			"container",
+			"						",
+			"meeting_id",
+			"socket.emit",
+			"socket.em",
+			"join",
+			"joing",
+			"phases",
+			"CheckiMo",
+			"todo",
+			"re is currently enforcer",
+			"user",
+			"has_speach_items",
+			"has_speach_itemshas_speach_itemshas_speach_items",
+			"new",
+			"set_phases_for_meeting",
+			"section",
+			">		",
+			"meetingphases",
+			"mpt",
+			"get_teams_for_user",
+			"form",
+			"body",
+			"form",
+			"update_meeting",
+			"writehead",
+			"console",
+			"console.l",
+			"get_meetings_for_user",
+			"remove",
+			"colh",
+			"colhom",
+			"requi",
+			"test"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config.js",
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server.js",
+					"settings":
+					{
+						"buffer_size": 481,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,20 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+footer{
+	padding-top:100px;
+}
+.msg{
+	font-size:12em;
+	border-radius: 60px;
+	position:fixed;	
+	text-align:center;
+	padding:20px 25px;
+}

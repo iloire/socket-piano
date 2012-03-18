@@ -1,0 +1,17 @@
+{
+	"name": "socket-piano",
+	"version": "0.0.1",
+	"engines": {
+		"node": ">= 0.6.0"
+	},
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/iloire/socket-piano"
+	},
+	"dependencies": {
+		"express": "2.5.0",
+		"ejs": ">= 0.0.1",
+		"socket.io": ">=0.8.7"
+	}
+}
