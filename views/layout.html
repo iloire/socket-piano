@@ -4,9 +4,9 @@
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/bootstrap.amelia.min.css' />
     <link rel='stylesheet' href='/stylesheets/style.css' />
-	<script src="/javascripts/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="/javascripts/chords.js" type="text/javascript" charset="utf-8"></script>
+  	<script src="/javascripts/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
   </head>
+
   <body>	
 		
 <script>
@@ -22,15 +22,16 @@
       audio_tones[tone].play();
     }
 
-    $(document).ready(function() {
+    var tones = ['C','D','E','F','G','A','B'];
 
-   	  //load tones
-	   	for(var key in Base64EncodedNotes){
+    $(document).ready(function() {
+   	  
+      for (var i = 0, l = tones.length; i < l ;  i++) {
         var audio = new Audio();
-        audio.src = Base64EncodedNotes[key];
-        //audio.load();
-	      audio_tones[key]= audio;
-	   	}
+        audio.src = '/tones/' + tones[i] + '.mp3';
+        audio.load();
+        audio_tones[tones[i]]= audio;
+      };
 
       //socket.io -------------------------
       var server='http://' + real_time_server.host + ':' + real_time_server.port;      
@@ -78,9 +79,16 @@
       case 71: //g
         play('G');
         break;
-      }  
-  });        
 
+      case 72: //h
+        play('A');
+        break;
+
+      case 74: //j
+        play('B');
+        break;
+      }  
+  });
 
 </script>
 
@@ -97,32 +105,20 @@
 	  </div>
 	</div>
 
-    <div class="container-fluid">	
-	
-	<%- body %>
+  <div class="container-fluid">	
+    <div id="msg"></div>
 
-	<footer>
-		Source code available in GitHub: <a href="https://github.com/iloire/socket-piano">https://github.com/iloire/socket-piano</a>
-	</footer>
+    <%- body %>
 
-	<script>
-	var user_id = Math.random();
-	var real_time_server = {host: '<%=real_time_server.host %>', port:<%=real_time_server.port %>};
-	</script>
-	<script src="http://<%=real_time_server.host %>:<%=real_time_server.port %>/socket.io/socket.io.js" type="text/javascript" charset="utf-8"></script>		
-  
-	</div>
+    <footer>
+    Source code available in GitHub: <a href="https://github.com/iloire/socket-piano">https://github.com/iloire/socket-piano</a>
+    </footer>
 
-	<script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-300651-38']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script>
+    <script>
+    var user_id = Math.random();
+    var real_time_server = {host: '<%=real_time_server.host %>', port:<%=real_time_server.port %>};
+    </script>
+    <script src="http://<%=real_time_server.host %>:<%=real_time_server.port %>/socket.io/socket.io.js" type="text/javascript" charset="utf-8"></script>		
+  </div>
   </body>
 </html>

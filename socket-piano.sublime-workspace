@@ -31,7 +31,7 @@
 			"file": "server.js",
 			"settings":
 			{
-				"buffer_size": 481,
+				"buffer_size": 482,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,55 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 284,
+				"buffer_size": 283,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/layout.html",
+			"settings":
+			{
+				"buffer_size": 3391,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/modules/piano.js",
+			"settings":
+			{
+				"buffer_size": 833,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/piano.html",
+			"settings":
+			{
+				"buffer_size": 286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/index.js",
+			"settings":
+			{
+				"buffer_size": 268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.html",
+			"settings":
+			{
+				"buffer_size": 21,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/stylesheets/style.css",
+			"settings":
+			{
+				"buffer_size": 247,
 				"line_ending": "Unix"
 			}
 		}
@@ -88,6 +136,8 @@
 	},
 	"file_history":
 	[
+		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/ivanloire/dev/node/socket-piano/public/javascripts/chords.js",
 		"/Users/ivanloire/dev/node/4c/lib/real-time/listeners/meetingfunctions/chat.js",
 		"/Users/ivanloire/dev/node/4c/lib/modules/meetings/meeting_chat.js",
 		"/Users/ivanloire/dev/node/4c/tests/modules/users/tests.js",
@@ -201,7 +251,6 @@
 		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/Nodejs/Nodejs.sublime-settings",
-		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/RedisModule",
 		"/Users/ivanloire/Library/Application Support/Sublime Text 2/Packages/User/hellow",
 		"/Users/ivanloire/dev/node/4c/node_modules/request/main.js",
@@ -214,8 +263,7 @@
 		"/Users/ivanloire/dev/node/4c/views/layout.ejs",
 		"/Users/ivanloire/dev/node/4c/tests/http/teams/tests.js",
 		"/Users/ivanloire/dev/node/4c/tests/http/tests.js",
-		"/Users/ivanloire/dev/node/4c/views/admin/meetingphases/index.ejs",
-		"/Users/ivanloire/dev/node/4c/views/meetings/meetings.ejs"
+		"/Users/ivanloire/dev/node/4c/views/admin/meetingphases/index.ejs"
 	],
 	"find":
 	{
@@ -236,6 +284,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"draw",
 			"	}",
 			"meeting_chat.js",
 			"socket_ser",
@@ -336,6 +385,7 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -350,8 +400,8 @@
 						"selection":
 						[
 							[
-								126,
-								126
+								107,
+								116
 							]
 						],
 						"settings":
@@ -370,15 +420,15 @@
 					"file": "server.js",
 					"settings":
 					{
-						"buffer_size": 481,
+						"buffer_size": 482,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								234,
-								234
+								246,
+								246
 							]
 						],
 						"settings":
@@ -423,20 +473,184 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 284,
+						"buffer_size": 283,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								284,
-								284
+								271,
+								271
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/layout.html",
+					"settings":
+					{
+						"buffer_size": 3391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2309,
+								2309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1174.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/modules/piano.js",
+					"settings":
+					{
+						"buffer_size": 833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								831,
+								831
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/piano.html",
+					"settings":
+					{
+						"buffer_size": 286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "routes/index.js",
+					"settings":
+					{
+						"buffer_size": 268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "views/index.html",
+					"settings":
+					{
+						"buffer_size": 21,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public/stylesheets/style.css",
+					"settings":
+					{
+						"buffer_size": 247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
